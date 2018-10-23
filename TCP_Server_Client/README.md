@@ -16,7 +16,7 @@ The client issues commands to execute on the server and the server returns the o
 An example of running the setup is shown below:
 
 1. Copy or clone the TCP_Server_Client folder on to your local machine
-2. Both these files have been compiled using open-jdk-8 (JAVA SE 10)
+2. Both these files have been compiled using open-jdk-11 (JAVA SE 10)
 3. You can compile them for correctness or run the pre-compiled .class files
 4. Open a terminal and navigate to the copied folder. Start the server by using the following command:
 
