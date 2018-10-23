@@ -7,6 +7,7 @@ Author: Ravindra, Manu Srivatsa
 This folder has two programs written in the linux environment using  the Eclipse IDE in Java
 
 rcmd.java - Remote command issuing client
+
 rrcmd.java - Remote command accepting server. An rrcmd server can host mulitple clients over TCP IP. 
 
 The programs rely on the fact that the server and the client have an agreed port number that they will operate on.
