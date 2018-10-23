@@ -20,13 +20,13 @@ An example of running the setup is shown below:
 3. You can compile them for correctness or run the pre-compiled .class files
 4. Open a terminal and navigate to the copied folder. Start the server by using the following command:
 
-   rrcmd <portnumber>
+   rrcmd [portnumber]
    
    e.g. rrcmd 50000
 
 5. Open another terminal and navigate to the copied folder. Start the clinet by using the following command:
 
-   rcmd <ipaddressOfServer> <portnumber> <numberOfTimesToExecuteCommand> <TimeDelayInSecondsRuns> <command>
+   rcmd [ipaddressOfServer] [portnumber] [numberOfTimesToExecuteCommand] [TimeDelayInSecondsRuns] [command]
    
    e.g. rcmd 127.0.0.1 50000 2 4 ifconfig
 
